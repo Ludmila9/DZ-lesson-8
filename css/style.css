@@ -97,7 +97,7 @@ body{
 }
 
 .form-text-decoration{
-	width: 33px;
+	width: 31px;
 	height: 33px;
 	font-size: 22px;
 	background-color: transparent;
@@ -107,6 +107,18 @@ body{
 	padding: 0;
 	cursor: pointer;
 	font-family: sans-serif;
+}
+
+.form-text-decoration img{
+	width: 27px;
+	height: 27px;
+	
+	border: none;
+	opacity: .5;
+	
+	padding: 0;
+	cursor: pointer;
+	
 }
 
 .form-text-decoration + .form-text-decoration{
@@ -150,7 +162,6 @@ body{
 	height: 3px;
 	background-color: #FFF;
 	margin-bottom: 3px;
-	
 }
 
 .form-text-decoration span:last-child{
@@ -161,7 +172,20 @@ body{
 	width: 20px;
 }
 
+.text-decoration_center span:nth-child(even){
+	width: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.text-decoration_right span:nth-child(even){
+	width: 20px;
+	margin-left: auto;
+    margin-right: 0;
+}
+
 .article-autor{
 	text-transform: uppercase;
 	letter-spacing: 0.219em;
 }
+
